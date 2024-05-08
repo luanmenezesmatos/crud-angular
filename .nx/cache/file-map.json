@@ -1,0 +1,207 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.4",
+  "deps": {
+    "@angular/animations": "^17.3.0",
+    "@angular/cdk": "^17.3.6",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/platform-server": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "@angular/ssr": "^17.3.6",
+    "@spartan-ng/ui-core": "^0.0.1-alpha.347",
+    "clsx": "^1.2.1",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.3.6",
+    "@angular/cli": "^17.3.6",
+    "@angular/compiler-cli": "^17.3.0",
+    "@spartan-ng/cli": "^0.0.1-alpha.350",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.38",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.6",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {
+    "@spartan-ng/ui-button-helm": [
+      ".\\components/ui-button-helm/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "crud-angular": [
+        {
+          "file": ".editorconfig",
+          "hash": "17241496168097493888"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "4689145951703824387"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "11934160580685414355"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "README.md",
+          "hash": "268432223719545322"
+        },
+        {
+          "file": "angular.json",
+          "hash": "13461576663096930112"
+        },
+        {
+          "file": "components/ui-button-helm/src/index.ts",
+          "hash": "8982221364966377158"
+        },
+        {
+          "file": "components/ui-button-helm/src/lib/hlm-button.directive.ts",
+          "hash": "687818395881366967"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "10564466152390583191"
+        },
+        {
+          "file": "package.json",
+          "hash": "15820761284343399329",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/cdk",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/platform-server",
+            "npm:@angular/router",
+            "npm:@angular/ssr",
+            "npm:@spartan-ng/ui-core",
+            "npm:clsx",
+            "npm:express",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@spartan-ng/cli",
+            "npm:@types/express",
+            "npm:@types/jasmine",
+            "npm:@types/node",
+            "npm:autoprefixer",
+            "npm:class-variance-authority",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:postcss",
+            "npm:tailwind-merge",
+            "npm:tailwindcss",
+            "npm:tailwindcss-animate",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "server.ts",
+          "hash": "17556996765790181515"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "13596115947286303710"
+        },
+        {
+          "file": "src/app/app.component.spec.ts",
+          "hash": "12922276680089729065"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "7098610454788492839"
+        },
+        {
+          "file": "src/app/app.config.server.ts",
+          "hash": "15184490126418035619"
+        },
+        {
+          "file": "src/app/app.config.ts",
+          "hash": "12630557031237925337"
+        },
+        {
+          "file": "src/app/app.routes.ts",
+          "hash": "809736233805555256"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "446023093573861196"
+        },
+        {
+          "file": "src/main.server.ts",
+          "hash": "9257623809215978365"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "4169901790405087765"
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "12467919542734909175"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "3445682547249110113"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "2442507913137902887"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "13808449998346943617"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "5122839733245053999"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

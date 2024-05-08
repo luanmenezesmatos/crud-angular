@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let curso of cursos">
+      <td>{{ curso.id }}</td>
+      <td>{{ curso.nome }}</td>
+      <td><a [routerLink]="['/curso', curso.id]">Acessar curso</a></td>
+    </tr>
+  </tbody>
+</table>
